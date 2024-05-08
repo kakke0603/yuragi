@@ -1,3 +1,22 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+p {
+  -webkit-text-stroke-width: 0.1px;
+  -webkit-text-stroke-color: black;
+}
+body {
+  font-family: "游明朝", "Yu Mincho", YuMincho, "Hiragino Mincho Pro", serif;
+  -ms-writing-mode: tb-rl;
+  writing-mode: vertical-rl;
+}
+
+.backdrop-filter {
+  -webkit-backdrop-filter: blur(4px);
+  backdrop-filter: blur(4px);
+  margin: 0;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
